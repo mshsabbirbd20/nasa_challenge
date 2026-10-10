@@ -1,0 +1,8 @@
+{
+  "source_url": "https://nssdc.gsfc.nasa.gov/planetary/lunar/lunar_sites.html",
+  "fetched_at": "2026-10-06T06:26:11Z",
+  "reference_system": "Mean Earth/Polar Axis Lunar Reference System (DE421); LRO imagery",
+  "citation": "Wagner et al., Icarus 283, pp. 92-103 (2017); NSSDCA lunar sites table",
+  "verified_sample_coords": false,
+  "error": "<urlopen error [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond>"
+}

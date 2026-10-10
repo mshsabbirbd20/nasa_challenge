@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="400" viewBox="0 0 640 400" role="img" aria-label="Viking 2">
+  <rect width="640" height="400" fill="#1a120c"/>
+  <rect x="40" y="40" width="560" height="320" rx="12" fill="#2a1c14" stroke="#c87840" stroke-width="2"/>
+  <text x="48" y="78" fill="#eef1f7" font-family="Segoe UI,sans-serif" font-size="28" font-weight="700">Viking 2</text>
+  <text x="48" y="330" fill="#bacce9" font-family="Segoe UI,sans-serif" font-size="16">NASA · left on Mars</text>
+</svg>

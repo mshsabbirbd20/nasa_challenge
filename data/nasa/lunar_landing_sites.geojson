@@ -1,0 +1,303 @@
+{
+  "type": "FeatureCollection",
+  "name": "NASA NSSDCA Apollo landing / experiment sites",
+  "crs_note": "lon,lat degrees; Moon: Mean Earth/Polar Axis (NSSDCA LRO); Mars: planetocentric as cited",
+  "source": "https://nssdc.gsfc.nasa.gov/planetary/lunar/lunar_sites.html",
+  "fetched_at": "2026-10-06T06:25:50Z",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.47314,
+          0.67416
+        ]
+      },
+      "properties": {
+        "id": "apollo11-lm",
+        "mission": "Apollo 11",
+        "name": "Apollo 11 Lunar Module",
+        "kind": "lunar_module",
+        "body": "moon",
+        "source_url": "https://nssdc.gsfc.nasa.gov/planetary/lunar/lunar_sites.html",
+        "dataset_id": "NSSDCA Apollo landing sites (LRO)",
+        "lat": 0.67416,
+        "lon": 23.47314
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.47307,
+          0.67345
+        ]
+      },
+      "properties": {
+        "id": "apollo11-lrrr",
+        "mission": "Apollo 11",
+        "name": "Apollo 11 LRRR",
+        "kind": "lrrr",
+        "body": "moon",
+        "source_url": "https://nssdc.gsfc.nasa.gov/planetary/lunar/lunar_sites.html",
+        "dataset_id": "NSSDCA Apollo landing sites (LRO)",
+        "lat": 0.67345,
+        "lon": 23.47307
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -23.4219,
+          -3.0128
+        ]
+      },
+      "properties": {
+        "id": "apollo12-lm",
+        "mission": "Apollo 12",
+        "name": "Apollo 12 Lunar Module",
+        "kind": "lunar_module",
+        "body": "moon",
+        "source_url": "https://nssdc.gsfc.nasa.gov/planetary/lunar/lunar_sites.html",
+        "dataset_id": "NSSDCA Apollo landing sites (LRO)",
+        "lat": -3.0128,
+        "lon": -23.4219
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -23.4249,
+          -3.0098
+        ]
+      },
+      "properties": {
+        "id": "apollo12-alsep",
+        "mission": "Apollo 12",
+        "name": "Apollo 12 ALSEP",
+        "kind": "alsep",
+        "body": "moon",
+        "source_url": "https://nssdc.gsfc.nasa.gov/planetary/lunar/lunar_sites.html",
+        "dataset_id": "NSSDCA Apollo landing sites (LRO)",
+        "lat": -3.0098,
+        "lon": -23.4249
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.47194,
+          -3.64589
+        ]
+      },
+      "properties": {
+        "id": "apollo14-lm",
+        "mission": "Apollo 14",
+        "name": "Apollo 14 Lunar Module",
+        "kind": "lunar_module",
+        "body": "moon",
+        "source_url": "https://nssdc.gsfc.nasa.gov/planetary/lunar/lunar_sites.html",
+        "dataset_id": "NSSDCA Apollo landing sites (LRO)",
+        "lat": -3.64589,
+        "lon": -17.47194
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.6333,
+          26.13239
+        ]
+      },
+      "properties": {
+        "id": "apollo15-lm",
+        "mission": "Apollo 15",
+        "name": "Apollo 15 Lunar Module",
+        "kind": "lunar_module",
+        "body": "moon",
+        "source_url": "https://nssdc.gsfc.nasa.gov/planetary/lunar/lunar_sites.html",
+        "dataset_id": "NSSDCA Apollo landing sites (LRO)",
+        "lat": 26.13239,
+        "lon": 3.6333
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.5011,
+          -8.9734
+        ]
+      },
+      "properties": {
+        "id": "apollo16-lm",
+        "mission": "Apollo 16",
+        "name": "Apollo 16 Lunar Module",
+        "kind": "lunar_module",
+        "body": "moon",
+        "source_url": "https://nssdc.gsfc.nasa.gov/planetary/lunar/lunar_sites.html",
+        "dataset_id": "NSSDCA Apollo landing sites (LRO)",
+        "lat": -8.9734,
+        "lon": 15.5011
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.7723,
+          20.1911
+        ]
+      },
+      "properties": {
+        "id": "apollo17-lm",
+        "mission": "Apollo 17",
+        "name": "Apollo 17 Lunar Module",
+        "kind": "lunar_module",
+        "body": "moon",
+        "source_url": "https://nssdc.gsfc.nasa.gov/planetary/lunar/lunar_sites.html",
+        "dataset_id": "NSSDCA Apollo landing sites (LRO)",
+        "lat": 20.1911,
+        "lon": 30.7723
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.47865,
+          -3.64417
+        ]
+      },
+      "properties": {
+        "id": "apollo14-lrrr",
+        "mission": "Apollo 14",
+        "name": "Apollo 14 LRRR",
+        "kind": "lrrr",
+        "body": "moon",
+        "source_url": "https://nssdc.gsfc.nasa.gov/planetary/lunar/lunar_sites.html",
+        "dataset_id": "NSSDCA Apollo landing sites (LRO)",
+        "lat": -3.64417,
+        "lon": -17.47865
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.47768,
+          -3.64419
+        ]
+      },
+      "properties": {
+        "id": "apollo14-alsep",
+        "mission": "Apollo 14",
+        "name": "Apollo 14 ALSEP",
+        "kind": "alsep",
+        "body": "moon",
+        "source_url": "https://nssdc.gsfc.nasa.gov/planetary/lunar/lunar_sites.html",
+        "dataset_id": "NSSDCA Apollo landing sites (LRO)",
+        "lat": -3.64419,
+        "lon": -17.47768
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.6285,
+          26.13341
+        ]
+      },
+      "properties": {
+        "id": "apollo15-lrrr",
+        "mission": "Apollo 15",
+        "name": "Apollo 15 LRRR",
+        "kind": "lrrr",
+        "body": "moon",
+        "source_url": "https://nssdc.gsfc.nasa.gov/planetary/lunar/lunar_sites.html",
+        "dataset_id": "NSSDCA Apollo landing sites (LRO)",
+        "lat": 26.13341,
+        "lon": 3.6285
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.62991,
+          26.13406
+        ]
+      },
+      "properties": {
+        "id": "apollo15-alsep",
+        "mission": "Apollo 15",
+        "name": "Apollo 15 ALSEP",
+        "kind": "alsep",
+        "body": "moon",
+        "source_url": "https://nssdc.gsfc.nasa.gov/planetary/lunar/lunar_sites.html",
+        "dataset_id": "NSSDCA Apollo landing sites (LRO)",
+        "lat": 26.13406,
+        "lon": 3.62991
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.4986,
+          -8.9759
+        ]
+      },
+      "properties": {
+        "id": "apollo16-alsep",
+        "mission": "Apollo 16",
+        "name": "Apollo 16 ALSEP",
+        "kind": "alsep",
+        "body": "moon",
+        "source_url": "https://nssdc.gsfc.nasa.gov/planetary/lunar/lunar_sites.html",
+        "dataset_id": "NSSDCA Apollo landing sites (LRO)",
+        "lat": -8.9759,
+        "lon": 15.4986
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.7655,
+          20.1923
+        ]
+      },
+      "properties": {
+        "id": "apollo17-alsep",
+        "mission": "Apollo 17",
+        "name": "Apollo 17 ALSEP",
+        "kind": "alsep",
+        "body": "moon",
+        "source_url": "https://nssdc.gsfc.nasa.gov/planetary/lunar/lunar_sites.html",
+        "dataset_id": "NSSDCA Apollo landing sites (LRO)",
+        "lat": 20.1923,
+        "lon": 30.7655
+      }
+    }
+  ]
+}

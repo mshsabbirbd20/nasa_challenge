@@ -1,0 +1,104 @@
+{
+  "title": "InSight Mars Weather (archived sol summaries)",
+  "endpoint": "https://api.nasa.gov/insight_weather/",
+  "docs": "https://api.nasa.gov/#Insight",
+  "human": "https://mars.nasa.gov/insight/weather/",
+  "note": "InSight ended Dec 2022; feed returns historical last-available sols.",
+  "fetched_at": "2026-10-06T06:26:13Z",
+  "sol_keys": [
+    "675",
+    "676",
+    "677",
+    "678",
+    "679",
+    "680",
+    "681"
+  ],
+  "sols": [
+    {
+      "sol": 675,
+      "season": "fall",
+      "first_utc": "2020-10-19T18:32:20Z",
+      "last_utc": "2020-10-20T19:11:55Z",
+      "temp_avg_c": -62.314,
+      "temp_min_c": -96.872,
+      "temp_max_c": -15.908,
+      "pressure_avg_pa": 750.563,
+      "wind_avg_ms": 7.233,
+      "wind_max_ms": 22.455
+    },
+    {
+      "sol": 676,
+      "season": "fall",
+      "first_utc": "2020-10-20T19:11:55Z",
+      "last_utc": "2020-10-21T19:51:31Z",
+      "temp_avg_c": -62.812,
+      "temp_min_c": -96.912,
+      "temp_max_c": -16.499,
+      "pressure_avg_pa": 749.09,
+      "wind_avg_ms": 8.526,
+      "wind_max_ms": 26.905
+    },
+    {
+      "sol": 677,
+      "season": "fall",
+      "first_utc": "2020-10-21T19:51:31Z",
+      "last_utc": "2020-10-22T20:31:06Z",
+      "temp_avg_c": -63.056,
+      "temp_min_c": -97.249,
+      "temp_max_c": -16.853,
+      "pressure_avg_pa": 748.698,
+      "wind_avg_ms": 7.887,
+      "wind_max_ms": 23.197
+    },
+    {
+      "sol": 678,
+      "season": "fall",
+      "first_utc": "2020-10-22T20:31:06Z",
+      "last_utc": "2020-10-23T21:10:41Z",
+      "temp_avg_c": -62.562,
+      "temp_min_c": -97.728,
+      "temp_max_c": -9.055,
+      "pressure_avg_pa": 743.741,
+      "wind_avg_ms": 5.246,
+      "wind_max_ms": 18.399
+    },
+    {
+      "sol": 679,
+      "season": "fall",
+      "first_utc": "2020-10-23T21:10:41Z",
+      "last_utc": "2020-10-24T21:50:16Z",
+      "temp_avg_c": -62.551,
+      "temp_min_c": -96.644,
+      "temp_max_c": -11.561,
+      "pressure_avg_pa": 744.529,
+      "wind_avg_ms": 5.565,
+      "wind_max_ms": 19.409000000000002
+    },
+    {
+      "sol": 680,
+      "season": "fall",
+      "first_utc": "2020-10-24T21:50:16Z",
+      "last_utc": "2020-10-25T22:29:51Z",
+      "temp_avg_c": -61.789,
+      "temp_min_c": -96.811,
+      "temp_max_c": -15.298,
+      "pressure_avg_pa": 743.99,
+      "wind_avg_ms": 6.517,
+      "wind_max_ms": 24.235
+    },
+    {
+      "sol": 681,
+      "season": "fall",
+      "first_utc": "2020-10-25T22:29:51Z",
+      "last_utc": "2020-10-26T23:09:26Z",
+      "temp_avg_c": -62.434,
+      "temp_min_c": -95.447,
+      "temp_max_c": -4.444,
+      "pressure_avg_pa": 743.55,
+      "wind_avg_ms": 5.632,
+      "wind_max_ms": 18.577
+    }
+  ],
+  "raw_included": false
+}

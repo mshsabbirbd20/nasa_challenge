@@ -1,0 +1,207 @@
+{
+  "type": "FeatureCollection",
+  "name": "NASA Mars surface hardware (challenge subset)",
+  "crs_note": "lon,lat degrees; Moon: Mean Earth/Polar Axis (NSSDCA LRO); Mars: planetocentric as cited",
+  "source": "https://nssdc.gsfc.nasa.gov/",
+  "fetched_at": "2026-10-06T06:25:50Z",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.45,
+          18.4447
+        ]
+      },
+      "properties": {
+        "id": "perseverance",
+        "mission": "Mars 2020",
+        "name": "Perseverance rover",
+        "kind": "rover",
+        "body": "mars",
+        "nssdc_id": "2020-052A",
+        "source_url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2020-052A",
+        "dataset_id": "NSSDCA 2020-052A",
+        "lat": 18.4447,
+        "lon": 77.45
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.4417,
+          -4.5895
+        ]
+      },
+      "properties": {
+        "id": "curiosity",
+        "mission": "Mars Science Laboratory",
+        "name": "Curiosity rover",
+        "kind": "rover",
+        "body": "mars",
+        "nssdc_id": "2011-070A",
+        "source_url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2011-070A",
+        "dataset_id": "NSSDCA 2011-070A",
+        "lat": -4.5895,
+        "lon": 137.4417
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.9462,
+          -2.2797
+        ]
+      },
+      "properties": {
+        "id": "opportunity",
+        "mission": "Mars Exploration Rover-B",
+        "name": "Opportunity rover",
+        "kind": "rover",
+        "body": "mars",
+        "nssdc_id": "2003-032A",
+        "source_url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2003-032A",
+        "dataset_id": "NSSDCA 2003-032A",
+        "lat": -2.2797,
+        "lon": -1.9462
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.4729,
+          -14.5684
+        ]
+      },
+      "properties": {
+        "id": "spirit",
+        "mission": "Mars Exploration Rover-A",
+        "name": "Spirit rover",
+        "kind": "rover",
+        "body": "mars",
+        "nssdc_id": "2003-027A",
+        "source_url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2003-027A",
+        "dataset_id": "NSSDCA 2003-027A",
+        "lat": -14.5684,
+        "lon": 175.4729
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.6234,
+          4.5024
+        ]
+      },
+      "properties": {
+        "id": "insight",
+        "mission": "InSight",
+        "name": "InSight lander",
+        "kind": "lander",
+        "body": "mars",
+        "nssdc_id": "2018-042A",
+        "source_url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2018-042A",
+        "dataset_id": "NSSDCA 2018-042A",
+        "lat": 4.5024,
+        "lon": 135.6234
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.9,
+          -68.25
+        ]
+      },
+      "properties": {
+        "id": "phoenix",
+        "mission": "Phoenix",
+        "name": "Phoenix lander",
+        "kind": "lander",
+        "body": "mars",
+        "nssdc_id": "2007-034A",
+        "source_url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2007-034A",
+        "dataset_id": "NSSDCA 2007-034A",
+        "lat": -68.25,
+        "lon": -109.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -47.95,
+          22.27
+        ]
+      },
+      "properties": {
+        "id": "viking1",
+        "mission": "Viking 1",
+        "name": "Viking 1 lander",
+        "kind": "lander",
+        "body": "mars",
+        "nssdc_id": "1975-075C",
+        "source_url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1975-075C",
+        "dataset_id": "NSSDCA 1975-075C",
+        "lat": 22.27,
+        "lon": -47.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.28,
+          47.64
+        ]
+      },
+      "properties": {
+        "id": "viking2",
+        "mission": "Viking 2",
+        "name": "Viking 2 lander",
+        "kind": "lander",
+        "body": "mars",
+        "nssdc_id": "1975-083C",
+        "source_url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1975-083C",
+        "dataset_id": "NSSDCA 1975-083C",
+        "lat": 47.64,
+        "lon": 134.28
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -33.217,
+          19.13
+        ]
+      },
+      "properties": {
+        "id": "pathfinder",
+        "mission": "Mars Pathfinder",
+        "name": "Mars Pathfinder / Sojourner",
+        "kind": "lander_rover",
+        "body": "mars",
+        "nssdc_id": "1996-068A",
+        "source_url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1996-068A",
+        "dataset_id": "NSSDCA 1996-068A",
+        "lat": 19.13,
+        "lon": -33.217
+      }
+    }
+  ]
+}

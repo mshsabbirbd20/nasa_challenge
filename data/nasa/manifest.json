@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "updated": "2026-10-06T06:26:14Z",
+  "project": "Abandoned but not Forgotten",
+  "how_to_update": [
+    "Replace any file listed under active with a newer copy (same schema).",
+    "Or edit active.* paths to point at your new filenames under data/nasa/.",
+    "Keep objects.geojson as the storytelling site list the 3D viewer loads.",
+    "Re-run: python scripts/fetch_nasa_datasets.py to refresh online caches."
+  ],
+  "active": {
+    "sites": "../objects.geojson",
+    "lunar_reference": "lunar_landing_sites.geojson",
+    "mars_reference": "mars_landing_sites.geojson",
+    "abandoned_hardware": "abandoned_hardware.json",
+    "insight_weather": "insight_weather.json",
+    "perseverance_raw_sample": "perseverance_raw_sample.json",
+    "lunar_citation": "lunar_sites_nssdc_citation.json"
+  },
+  "files": {
+    "lunar_landing_sites.geojson": "NSSDCA Apollo LRO coordinates",
+    "mars_landing_sites.geojson": "NSSDCA Mars hardware subset",
+    "abandoned_hardware.json": "Left-behind hardware narrative catalog",
+    "lunar_sites_nssdc_citation.json": "Fetch receipt for NSSDCA lunar table",
+    "insight_weather.json": "7 sols cached",
+    "perseverance_raw_sample.json": "12 image records"
+  },
+  "sources": {
+    "nssdc_lunar": "https://nssdc.gsfc.nasa.gov/planetary/lunar/lunar_sites.html",
+    "insight_weather_api": "https://api.nasa.gov/#Insight",
+    "perseverance_raw": "https://mars.nasa.gov/rss/api/?feed=raw_images&category=mars2020",
+    "nasa_open_apis": "https://api.nasa.gov/"
+  }
+}

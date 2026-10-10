@@ -1,0 +1,117 @@
+{
+  "title": "Mars 2020 Perseverance raw image sample",
+  "endpoint": "https://mars.nasa.gov/rss/api/?feed=raw_images&category=mars2020",
+  "credit": "NASA / JPL-Caltech",
+  "fetched_at": "2026-10-06T06:26:14Z",
+  "count": 12,
+  "images": [
+    {
+      "imageid": "WSM_2000_0844501862_000ECM_N0910970MEDA00000_0000LUJ",
+      "title": "Mars Perseverance Sol 2000: SkyCam Camera ",
+      "sol": 2000,
+      "date_taken_utc": "2026-10-05T20:16:01.509",
+      "instrument": "SKYCAM",
+      "thumb": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/02000/ids/edr/browse/meda/WSM_2000_0844501862_000ECM_N0910970MEDA00000_0000LUJ01_320.jpg",
+      "image": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/02000/ids/edr/browse/meda/WSM_2000_0844501862_000ECM_N0910970MEDA00000_0000LUJ01_800.jpg"
+    },
+    {
+      "imageid": "ZR0_2000_0844492374_015EBY_N0910970ZCAM10034_1100LMJ",
+      "title": "Mars Perseverance Sol 2000: Right Mastcam-Z Camera",
+      "sol": 2000,
+      "date_taken_utc": "2026-10-05T17:37:55.646",
+      "instrument": "MCZ_RIGHT",
+      "thumb": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/02000/ids/edr/browse/zcam/ZR0_2000_0844492374_015EBY_N0910970ZCAM10034_1100LMJ02_320.jpg",
+      "image": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/02000/ids/edr/browse/zcam/ZR0_2000_0844492374_015EBY_N0910970ZCAM10034_1100LMJ02_800.jpg"
+    },
+    {
+      "imageid": "ZR0_2000_0844492374_015ECM_N0910970ZCAM10034_1100LMJ",
+      "title": "Mars Perseverance Sol 2000: Right Mastcam-Z Camera",
+      "sol": 2000,
+      "date_taken_utc": "2026-10-05T17:37:55.646",
+      "instrument": "MCZ_RIGHT",
+      "thumb": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/02000/ids/edr/browse/zcam/ZR0_2000_0844492374_015ECM_N0910970ZCAM10034_1100LMJ02_320.jpg",
+      "image": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/02000/ids/edr/browse/zcam/ZR0_2000_0844492374_015ECM_N0910970ZCAM10034_1100LMJ02_800.jpg"
+    },
+    {
+      "imageid": "ZL0_2000_0844492374_015EBY_N0910970ZCAM10034_1100LMJ",
+      "title": "Mars Perseverance Sol 2000: Left Mastcam-Z Camera",
+      "sol": 2000,
+      "date_taken_utc": "2026-10-05T17:37:55.643",
+      "instrument": "MCZ_LEFT",
+      "thumb": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/02000/ids/edr/browse/zcam/ZL0_2000_0844492374_015EBY_N0910970ZCAM10034_1100LMJ01_320.jpg",
+      "image": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/02000/ids/edr/browse/zcam/ZL0_2000_0844492374_015EBY_N0910970ZCAM10034_1100LMJ01_800.jpg"
+    },
+    {
+      "imageid": "ZL0_2000_0844492374_015ECM_N0910970ZCAM10034_1100LMJ",
+      "title": "Mars Perseverance Sol 2000: Left Mastcam-Z Camera",
+      "sol": 2000,
+      "date_taken_utc": "2026-10-05T17:37:55.643",
+      "instrument": "MCZ_LEFT",
+      "thumb": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/02000/ids/edr/browse/zcam/ZL0_2000_0844492374_015ECM_N0910970ZCAM10034_1100LMJ01_320.jpg",
+      "image": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/02000/ids/edr/browse/zcam/ZL0_2000_0844492374_015ECM_N0910970ZCAM10034_1100LMJ01_800.jpg"
+    },
+    {
+      "imageid": "ZR0_2000_0844492338_988EBY_N0910970ZCAM10034_1100LMJ",
+      "title": "Mars Perseverance Sol 2000: Right Mastcam-Z Camera",
+      "sol": 2000,
+      "date_taken_utc": "2026-10-05T17:37:51.642",
+      "instrument": "MCZ_RIGHT",
+      "thumb": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/02000/ids/edr/browse/zcam/ZR0_2000_0844492338_988EBY_N0910970ZCAM10034_1100LMJ01_320.jpg",
+      "image": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/02000/ids/edr/browse/zcam/ZR0_2000_0844492338_988EBY_N0910970ZCAM10034_1100LMJ01_800.jpg"
+    },
+    {
+      "imageid": "ZR0_2000_0844492338_988ECM_N0910970ZCAM10034_1100LMJ",
+      "title": "Mars Perseverance Sol 2000: Right Mastcam-Z Camera",
+      "sol": 2000,
+      "date_taken_utc": "2026-10-05T17:37:51.642",
+      "instrument": "MCZ_RIGHT",
+      "thumb": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/02000/ids/edr/browse/zcam/ZR0_2000_0844492338_988ECM_N0910970ZCAM10034_1100LMJ01_320.jpg",
+      "image": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/02000/ids/edr/browse/zcam/ZR0_2000_0844492338_988ECM_N0910970ZCAM10034_1100LMJ01_800.jpg"
+    },
+    {
+      "imageid": "ZL0_2000_0844492338_988EBY_N0910970ZCAM10034_1100LMJ",
+      "title": "Mars Perseverance Sol 2000: Left Mastcam-Z Camera",
+      "sol": 2000,
+      "date_taken_utc": "2026-10-05T17:37:51.641",
+      "instrument": "MCZ_LEFT",
+      "thumb": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/02000/ids/edr/browse/zcam/ZL0_2000_0844492338_988EBY_N0910970ZCAM10034_1100LMJ01_320.jpg",
+      "image": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/02000/ids/edr/browse/zcam/ZL0_2000_0844492338_988EBY_N0910970ZCAM10034_1100LMJ01_800.jpg"
+    },
+    {
+      "imageid": "ZL0_2000_0844492338_988ECM_N0910970ZCAM10034_1100LMJ",
+      "title": "Mars Perseverance Sol 2000: Left Mastcam-Z Camera",
+      "sol": 2000,
+      "date_taken_utc": "2026-10-05T17:37:51.641",
+      "instrument": "MCZ_LEFT",
+      "thumb": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/02000/ids/edr/browse/zcam/ZL0_2000_0844492338_988ECM_N0910970ZCAM10034_1100LMJ01_320.jpg",
+      "image": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/02000/ids/edr/browse/zcam/ZL0_2000_0844492338_988ECM_N0910970ZCAM10034_1100LMJ01_800.jpg"
+    },
+    {
+      "imageid": "FRF_2000_0844490490_621ECM_N0910970FHAZ00206_01_295J",
+      "title": "Mars Perseverance Sol 2000: Front Right Hazard Avoidance Camera (Hazcam)",
+      "sol": 2000,
+      "date_taken_utc": "2026-10-05T17:06:30.720",
+      "instrument": "FRONT_HAZCAM_RIGHT_A",
+      "thumb": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/02000/ids/edr/browse/fcam/FRF_2000_0844490490_621ECM_N0910970FHAZ00206_01_295J01_320.jpg",
+      "image": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/02000/ids/edr/browse/fcam/FRF_2000_0844490490_621ECM_N0910970FHAZ00206_01_295J01_800.jpg"
+    },
+    {
+      "imageid": "FLF_2000_0844490490_621ECM_N0910970FHAZ00206_01_295J",
+      "title": "Mars Perseverance Sol 2000: Front Left Hazard Avoidance Camera (Hazcam)",
+      "sol": 2000,
+      "date_taken_utc": "2026-10-05T17:06:30.567",
+      "instrument": "FRONT_HAZCAM_LEFT_A",
+      "thumb": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/02000/ids/edr/browse/fcam/FLF_2000_0844490490_621ECM_N0910970FHAZ00206_01_295J01_320.jpg",
+      "image": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/02000/ids/edr/browse/fcam/FLF_2000_0844490490_621ECM_N0910970FHAZ00206_01_295J01_800.jpg"
+    },
+    {
+      "imageid": "NLG_2000_0844480656_659ECM_N0910970NCAM00500_00_2I4J",
+      "title": "Mars Perseverance Sol 2000: Left Navigation Camera (Navcam)",
+      "sol": 2000,
+      "date_taken_utc": "2026-10-05T14:22:36.224",
+      "instrument": "NAVCAM_LEFT",
+      "thumb": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/02000/ids/edr/browse/ncam/NLG_2000_0844480656_659ECM_N0910970NCAM00500_00_2I4J01_320.jpg",
+      "image": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/02000/ids/edr/browse/ncam/NLG_2000_0844480656_659ECM_N0910970NCAM00500_00_2I4J01_800.jpg"
+    }
+  ]
+}

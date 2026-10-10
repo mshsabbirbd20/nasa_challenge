@@ -1,0 +1,9 @@
+.env
+.DS_Store
+Thumbs.db
+cache/
+*.pmtiles
+__pycache__/
+*.pyc
+.vscode/
+.idea/

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2048" height="1024" viewBox="0 0 2048 1024">
+  <defs>
+    <radialGradient id="g" cx="50%" cy="45%" r="70%">
+      <stop offset="0%" stop-color="#c8c4b8"/>
+      <stop offset="55%" stop-color="#8a8680"/>
+      <stop offset="100%" stop-color="#3a3834"/>
+    </radialGradient>
+  </defs>
+  <rect width="2048" height="1024" fill="url(#g)"/>
+<circle cx="966" cy="926" r="43" fill="#2a2824" opacity="0.25"/>
+<circle cx="1639" cy="516" r="36" fill="#2a2824" opacity="0.18"/>
+<circle cx="1242" cy="234" r="19" fill="#2a2824" opacity="0.24"/>
+<circle cx="1014" cy="684" r="47" fill="#2a2824" opacity="0.24"/>
+<circle cx="232" cy="497" r="27" fill="#2a2824" opacity="0.11"/>
+<circle cx="1143" cy="869" r="52" fill="#2a2824" opacity="0.21"/>
+<circle cx="1259" cy="445" r="36" fill="#2a2824" opacity="0.21"/>
+<circle cx="1300" cy="705" r="18" fill="#2a2824" opacity="0.20"/>
+<circle cx="1743" cy="581" r="12" fill="#2a2824" opacity="0.09"/>
+<circle cx="429" cy="940" r="23" fill="#2a2824" opacity="0.20"/>
+<circle cx="1633" cy="515" r="28" fill="#2a2824" opacity="0.17"/>
+<circle cx="1765" cy="240" r="41" fill="#2a2824" opacity="0.13"/>
+<circle cx="642" cy="551" r="8" fill="#2a2824" opacity="0.21"/>
+<circle cx="976" cy="710" r="25" fill="#2a2824" opacity="0.16"/>
+<circle cx="1168" cy="900" r="13" fill="#2a2824" opacity="0.22"/>
+<circle cx="685" cy="816" r="22" fill="#2a2824" opacity="0.18"/>
+<circle cx="100" cy="111" r="44" fill="#2a2824" opacity="0.23"/>
+<circle cx="860" cy="150" r="26" fill="#2a2824" opacity="0.16"/>
+<circle cx="74" cy="907" r="51" fill="#2a2824" opacity="0.08"/>
+<circle cx="469" cy="972" r="11" fill="#2a2824" opacity="0.17"/>
+<circle cx="1491" cy="446" r="34" fill="#2a2824" opacity="0.09"/>
+<circle cx="1329" cy="243" r="51" fill="#2a2824" opacity="0.13"/>
+<circle cx="218" cy="358" r="29" fill="#2a2824" opacity="0.08"/>
+<circle cx="879" cy="816" r="15" fill="#2a2824" opacity="0.11"/>
+<circle cx="1487" cy="143" r="8" fill="#2a2824" opacity="0.09"/>
+<circle cx="1672" cy="538" r="19" fill="#2a2824" opacity="0.22"/>
+<circle cx="425" cy="498" r="40" fill="#2a2824" opacity="0.12"/>
+<circle cx="1538" cy="827" r="16" fill="#2a2824" opacity="0.16"/>
+<circle cx="825" cy="159" r="33" fill="#2a2824" opacity="0.16"/>
+<circle cx="475" cy="40" r="25" fill="#2a2824" opacity="0.25"/>
+<circle cx="1685" cy="646" r="27" fill="#2a2824" opacity="0.28"/>
+<circle cx="80" cy="255" r="19" fill="#2a2824" opacity="0.16"/>
+<circle cx="1789" cy="656" r="49" fill="#2a2824" opacity="0.20"/>
+<circle cx="126" cy="189" r="21" fill="#2a2824" opacity="0.17"/>
+<circle cx="59" cy="831" r="47" fill="#2a2824" opacity="0.15"/>
+<circle cx="646" cy="435" r="12" fill="#2a2824" opacity="0.09"/>
+<circle cx="467" cy="636" r="48" fill="#2a2824" opacity="0.13"/>
+<circle cx="1271" cy="417" r="31" fill="#2a2824" opacity="0.20"/>
+<circle cx="300" cy="641" r="38" fill="#2a2824" opacity="0.25"/>
+<circle cx="317" cy="927" r="32" fill="#2a2824" opacity="0.12"/>
+<circle cx="355" cy="358" r="22" fill="#2a2824" opacity="0.24"/>
+<circle cx="550" cy="782" r="20" fill="#2a2824" opacity="0.11"/>
+<circle cx="1328" cy="607" r="20" fill="#2a2824" opacity="0.22"/>
+<circle cx="835" cy="943" r="38" fill="#2a2824" opacity="0.20"/>
+<circle cx="903" cy="88" r="14" fill="#2a2824" opacity="0.10"/>
+<circle cx="1089" cy="301" r="23" fill="#2a2824" opacity="0.23"/>
+<circle cx="842" cy="303" r="34" fill="#2a2824" opacity="0.24"/>
+<circle cx="1261" cy="542" r="26" fill="#2a2824" opacity="0.18"/>
+<circle cx="1943" cy="777" r="12" fill="#2a2824" opacity="0.11"/>
+<circle cx="1021" cy="612" r="49" fill="#2a2824" opacity="0.25"/>
+<circle cx="1298" cy="115" r="25" fill="#2a2824" opacity="0.12"/>
+<circle cx="1913" cy="248" r="55" fill="#2a2824" opacity="0.08"/>
+<circle cx="591" cy="461" r="36" fill="#2a2824" opacity="0.13"/>
+<circle cx="135" cy="220" r="26" fill="#2a2824" opacity="0.15"/>
+<circle cx="1211" cy="174" r="13" fill="#2a2824" opacity="0.15"/>
+<circle cx="1864" cy="501" r="29" fill="#2a2824" opacity="0.21"/>
+<circle cx="1455" cy="574" r="45" fill="#2a2824" opacity="0.27"/>
+<circle cx="1248" cy="75" r="9" fill="#2a2824" opacity="0.17"/>
+<circle cx="772" cy="757" r="27" fill="#2a2824" opacity="0.27"/>
+<circle cx="83" cy="652" r="48" fill="#2a2824" opacity="0.09"/>
+<circle cx="177" cy="788" r="27" fill="#2a2824" opacity="0.14"/>
+<circle cx="188" cy="117" r="36" fill="#2a2824" opacity="0.19"/>
+<circle cx="1549" cy="85" r="55" fill="#2a2824" opacity="0.23"/>
+<circle cx="305" cy="852" r="29" fill="#2a2824" opacity="0.15"/>
+<circle cx="1443" cy="524" r="12" fill="#2a2824" opacity="0.25"/>
+<circle cx="894" cy="849" r="9" fill="#2a2824" opacity="0.25"/>
+<circle cx="1213" cy="54" r="47" fill="#2a2824" opacity="0.21"/>
+<circle cx="816" cy="636" r="8" fill="#2a2824" opacity="0.20"/>
+<circle cx="204" cy="132" r="48" fill="#2a2824" opacity="0.10"/>
+<circle cx="566" cy="940" r="34" fill="#2a2824" opacity="0.23"/>
+<circle cx="835" cy="792" r="52" fill="#2a2824" opacity="0.20"/>
+<circle cx="942" cy="513" r="42" fill="#2a2824" opacity="0.10"/>
+<circle cx="1576" cy="566" r="9" fill="#2a2824" opacity="0.14"/>
+<circle cx="219" cy="532" r="9" fill="#2a2824" opacity="0.13"/>
+<circle cx="1470" cy="155" r="39" fill="#2a2824" opacity="0.24"/>
+<circle cx="1391" cy="537" r="24" fill="#2a2824" opacity="0.26"/>
+<circle cx="793" cy="348" r="17" fill="#2a2824" opacity="0.22"/>
+<circle cx="454" cy="570" r="18" fill="#2a2824" opacity="0.23"/>
+<circle cx="741" cy="715" r="36" fill="#2a2824" opacity="0.18"/>
+<circle cx="534" cy="374" r="33" fill="#2a2824" opacity="0.21"/>
+<ellipse cx="1200" cy="500" rx="220" ry="120" fill="#5a5850" opacity="0.45"/>
+<ellipse cx="700" cy="420" rx="180" ry="90" fill="#5a5850" opacity="0.45"/>
+<ellipse cx="1500" cy="350" rx="140" ry="70" fill="#5a5850" opacity="0.45"/>
+<ellipse cx="400" cy="600" rx="160" ry="80" fill="#5a5850" opacity="0.45"/>
+<text x="40" y="40" fill="#eef1f7" font-family="Segoe UI,sans-serif" font-size="22" opacity="0.5">Moon basemap (offline cache) · style inspired by NASA Moon Trek</text>
+</svg>

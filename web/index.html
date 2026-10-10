@@ -1,0 +1,190 @@
+amar<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Abandoned but not Forgotten</title>
+  <link rel="stylesheet" href="css/app.css">
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "./vendor/three.module.js"
+    }
+  }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#screen-stage">Skip to main screen</a>
+
+  <div class="space-bg" aria-hidden="true">
+    <div class="nebula n1"></div>
+    <div class="nebula n2"></div>
+    <div class="nebula n3"></div>
+    <div class="stars"></div>
+  </div>
+
+  <div id="loading" class="loading">
+    <div class="loading-mark"></div>
+    <p>Abandoned but not Forgotten</p>
+    <span>NASA Space Apps Challenge 2026</span>
+  </div>
+
+  <div class="bridge">
+    <header class="bridge-top">
+      <div class="id-block">
+        <div class="id-text">
+          <h1>Abandoned but not Forgotten</h1>
+          <p class="id-event">NASA Space Apps Challenge 2026</p>
+        </div>
+      </div>
+
+      <div class="top-readouts">
+        <div class="ro"><span>VEL</span><strong id="tel-vel">7.66</strong></div>
+        <div class="ro"><span>ALT</span><strong id="tel-alt">408</strong></div>
+        <div class="ro"><span>PWR</span><strong id="tel-pwr">98</strong></div>
+        <div class="ro"><span>ZOOM</span><strong id="tel-zoom">1.0×</strong></div>
+      </div>
+
+      <div class="id-badge">
+        <span class="badge-led"></span>
+        <div>
+          <p>MAIN VIEWER</p>
+          <small>ONLINE</small>
+        </div>
+      </div>
+    </header>
+
+    <div class="bridge-mid">
+      <!-- LEFT RACK -->
+      <aside class="rack rack-left">
+        <div class="rack-head">
+          <span class="rack-pip"></span>
+          <p class="rack-title">DESTINATION</p>
+        </div>
+        <nav class="dest-stack" aria-label="Destinations">
+          <button type="button" class="rack-btn on" data-dest="earth" id="nav-earth">
+            <em>01</em>
+            <span><strong>EARTH</strong><small>Home orbit</small></span>
+          </button>
+          <button type="button" class="rack-btn" data-dest="moon" id="nav-moon">
+            <em>02</em>
+            <span><strong>MOON</strong><small>Abandoned sites</small></span>
+          </button>
+          <button type="button" class="rack-btn mars" data-dest="mars" id="nav-mars">
+            <em>03</em>
+            <span><strong>MARS</strong><small>Rover field</small></span>
+          </button>
+        </nav>
+
+        <div class="rack-head">
+          <span class="rack-pip cyan"></span>
+          <p class="rack-title">OPTICS</p>
+        </div>
+        <div class="zoom-pad">
+          <button type="button" class="zoom-btn" id="btn-zoom-in" title="Zoom in">
+            <span>＋</span><small>IN</small>
+          </button>
+          <button type="button" class="zoom-btn" id="btn-zoom-out" title="Zoom out">
+            <span>－</span><small>OUT</small>
+          </button>
+          <button type="button" class="zoom-btn ghost" id="btn-zoom-reset" title="Reset zoom">
+            <span>⊙</span><small>RESET</small>
+          </button>
+        </div>
+
+        <div class="rack-burn">
+          <div class="rack-head">
+            <span class="rack-pip"></span>
+            <p class="rack-title">BURN CONTROL</p>
+          </div>
+          <div class="side-actions" id="home-actions">
+            <button type="button" class="engage cyan" id="btn-to-moon">
+              <span>ENGAGE</span>
+              <strong>☾ MOON</strong>
+              <small>Trans-lunar</small>
+            </button>
+            <button type="button" class="engage orange" id="btn-to-mars">
+              <span>ENGAGE</span>
+              <strong>♂ MARS</strong>
+              <small>Interplanetary</small>
+            </button>
+          </div>
+          <div class="side-actions" id="orbit-actions" hidden>
+            <p class="orbit-note" id="orbit-title">DRONE · DRAG TO ORBIT</p>
+            <button type="button" class="engage orange" id="chip-moon" hidden>
+              <span>NEXT</span>
+              <strong>→ MARS</strong>
+              <small>Leave orbit</small>
+            </button>
+            <button type="button" class="engage dim" id="chip-home">
+              <span>RTB</span>
+              <strong>EARTH</strong>
+              <small>Return home</small>
+            </button>
+          </div>
+        </div>
+
+        <p class="rack-foot">NASA Space Apps Challenge 2026</p>
+      </aside>
+
+      <!-- CENTER FULL SCREEN -->
+      <section class="tv" aria-label="Main simulation screen">
+        <div class="tv-bezel">
+          <div class="tv-screw tl"></div>
+          <div class="tv-screw tr"></div>
+          <div class="tv-screw bl"></div>
+          <div class="tv-screw br"></div>
+
+          <div class="tv-topline">
+            <span class="led" id="dock-dot"></span>
+            <span id="tv-channel">CH · EARTH ORBIT</span>
+            <span class="tv-mode" id="side-mode">STBY</span>
+          </div>
+
+          <div class="tv-glass">
+            <div id="screen-stage" class="tv-screen">
+              <canvas id="c"></canvas>
+              <div class="scanlines" aria-hidden="true"></div>
+              <div class="screen-glow" aria-hidden="true"></div>
+              <div class="tv-reticle" aria-hidden="true"></div>
+
+              <div id="fly-caption" class="fly-caption" hidden>
+                <span class="pulse"></span>
+                <span id="fly-text">TRANSIT…</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="tv-bottomline">
+            <span id="status-line">EARTH ORBIT · STANDING BY</span>
+            <span class="tv-brand">VIEWER</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- RIGHT RACK · information panel -->
+      <aside class="rack rack-right" id="side-panel">
+        <div class="rack-head">
+          <span class="rack-pip"></span>
+          <p class="rack-title">INFORMATION</p>
+        </div>
+        <div class="side-scroll">
+          <h2 id="side-title">Select a site</h2>
+          <p id="side-mission" class="side-mission">Orbit Earth, then fly to the Moon or Mars.</p>
+          <p id="side-copy" class="rack-copy">
+            Tap a glowing lander or rover. NASA coordinates, dates, and why it was left will appear here.
+          </p>
+          <img id="side-image" class="side-image" alt="" hidden>
+          <p id="side-image-credit" class="side-image-credit" hidden></p>
+          <div id="side-facts" class="side-facts" hidden></div>
+          <div id="side-dataset" class="side-dataset" hidden></div>
+          <div id="side-extra" class="side-extra" hidden></div>
+        </div>
+        <p class="rack-foot">NASA Space Apps Challenge 2026</p>
+      </aside>
+    </div>
+  </div>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

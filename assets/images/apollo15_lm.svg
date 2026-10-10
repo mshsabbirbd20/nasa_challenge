@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="400" viewBox="0 0 640 400" role="img" aria-label="Falcon">
+  <rect width="640" height="400" fill="#1a1a2e"/>
+  <circle cx="520" cy="80" r="48" fill="#a89868" opacity="0.35"/>
+  <rect x="48" y="120" width="200" height="160" rx="8" fill="#a89868" opacity="0.85"/>
+  <rect x="88" y="90" width="120" height="40" rx="4" fill="#a89868"/>
+  <circle cx="148" cy="200" r="36" fill="#1a1a2e" opacity="0.4"/>
+  <text x="48" y="60" fill="#eef1f7" font-family="Segoe UI, system-ui, sans-serif" font-size="28" font-weight="700">Falcon</text>
+  <text x="48" y="330" fill="#bacce9" font-family="Segoe UI, system-ui, sans-serif" font-size="16">Apollo 15</text>
+  <text x="48" y="360" fill="#8fb6f2" font-family="Segoe UI, system-ui, sans-serif" font-size="12">Illustrative diagram · Image credit: NASA</text>
+</svg>

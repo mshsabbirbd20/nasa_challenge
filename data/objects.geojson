@@ -1,0 +1,506 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.47314,
+          0.67416
+        ]
+      },
+      "properties": {
+        "id": "apollo11-lm-descent",
+        "name": "Eagle descent stage",
+        "name_bn": "ঈগল অবতরণ মঞ্চ",
+        "mission": "Apollo 11",
+        "body": "moon",
+        "lat": 0.67416,
+        "lon": 23.47314,
+        "left_behind": "1969-07-21",
+        "last_contact": "1969-07-21",
+        "why_left": "The ascent stage used it as a launch platform and lifted off without it.",
+        "why_left_bn": "অ্যাসেন্ট স্টেজ এটিকে লঞ্চ প্ল্যাটফর্ম হিসেবে ব্যবহার করে উপরে উঠে যায়, আর অবতরণ মঞ্চ পড়ে থাকে।",
+        "science_enabled": "Passive seismic and laser ranging experiments deployed beside it.",
+        "science_enabled_bn": "পাশে স্থাপিত প্যাসিভ সিসমিক ও লেজার রেঞ্জিং পরীক্ষা সম্ভব করেছিল।",
+        "image": "assets/images/apollo11_lm.svg",
+        "image_credit": "NASA",
+        "source_url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-059C",
+        "dataset_id": "NSSDCA 1969-059C",
+        "coord_source": "NSSDCA LRO lunar_sites.html"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -23.4219,
+          -3.0128
+        ]
+      },
+      "properties": {
+        "id": "apollo12-lm-descent",
+        "name": "Intrepid descent stage",
+        "name_bn": "ইন্ট্রেপিড অবতরণ মঞ্চ",
+        "mission": "Apollo 12",
+        "body": "moon",
+        "lat": -3.0128,
+        "lon": -23.4219,
+        "left_behind": "1969-11-20",
+        "last_contact": "1969-11-20",
+        "why_left": "Ascent stage launched from the descent stage after surface EVA near Surveyor 3.",
+        "why_left_bn": "সার্ভেয়র ৩-এর কাছে EVA শেষে অ্যাসেন্ট স্টেজ অবতরণ মঞ্চ থেকে উড্ডয়ন করে।",
+        "science_enabled": "ALSEP instruments and Surveyor 3 hardware recovery.",
+        "science_enabled_bn": "ALSEP যন্ত্রপাতি ও সার্ভেয়র ৩ হার্ডওয়্যার উদ্ধার সক্ষম করে।",
+        "image": "assets/images/apollo12_lm.svg",
+        "image_credit": "NASA",
+        "source_url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1969-099C",
+        "dataset_id": "NSSDCA 1969-099C",
+        "coord_source": "NSSDCA LRO lunar_sites.html"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.47194,
+          -3.64589
+        ]
+      },
+      "properties": {
+        "id": "apollo14-lm-descent",
+        "name": "Antares descent stage",
+        "name_bn": "অ্যান্টারেস অবতরণ মঞ্চ",
+        "mission": "Apollo 14",
+        "body": "moon",
+        "lat": -3.64589,
+        "lon": -17.47194,
+        "left_behind": "1971-02-06",
+        "last_contact": "1971-02-06",
+        "why_left": "Crew returned in the ascent stage; the descent stage remained at Fra Mauro.",
+        "why_left_bn": "ক্রু অ্যাসেন্ট স্টেজে ফিরে আসে; অবতরণ মঞ্চ ফ্রা মাউরোতে থেকে যায়।",
+        "science_enabled": "ALSEP seismic and laser ranging at Fra Mauro.",
+        "science_enabled_bn": "ফ্রা মাউরোতে ALSEP সিসমিক ও লেজার রেঞ্জিং।",
+        "image": "assets/images/apollo14_lm.svg",
+        "image_credit": "NASA",
+        "source_url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1971-008C",
+        "dataset_id": "NSSDCA 1971-008C",
+        "coord_source": "NSSDCA LRO lunar_sites.html"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.6333,
+          26.13239
+        ]
+      },
+      "properties": {
+        "id": "apollo15-lm-descent",
+        "name": "Falcon descent stage",
+        "name_bn": "ফ্যালকন অবতরণ মঞ্চ",
+        "mission": "Apollo 15",
+        "body": "moon",
+        "lat": 26.13239,
+        "lon": 3.6333,
+        "left_behind": "1971-08-02",
+        "last_contact": "1971-08-02",
+        "why_left": "Hadley-Apennine landing left the descent stage as the surface base after liftoff.",
+        "why_left_bn": "হ্যাডলি-অ্যাপেনাইন অবতরণের পর অ্যাসেন্টের সময় অবতরণ মঞ্চ পৃষ্ঠে থেকে যায়।",
+        "science_enabled": "First lunar rover deployment site and heat-flow experiment.",
+        "science_enabled_bn": "প্রথম লুনার রোভার মোতায়েন ও হিট-ফ্লো পরীক্ষা।",
+        "image": "assets/images/apollo15_lm.svg",
+        "image_credit": "NASA",
+        "source_url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1971-063C",
+        "dataset_id": "NSSDCA 1971-063C",
+        "coord_source": "NSSDCA LRO lunar_sites.html"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.5011,
+          -8.9734
+        ]
+      },
+      "properties": {
+        "id": "apollo16-lm-descent",
+        "name": "Orion descent stage",
+        "name_bn": "ওরিয়ন অবতরণ মঞ্চ",
+        "mission": "Apollo 16",
+        "body": "moon",
+        "lat": -8.9734,
+        "lon": 15.5011,
+        "left_behind": "1972-04-23",
+        "last_contact": "1972-04-23",
+        "why_left": "Ascent stage departed Descartes Highlands; descent stage stayed.",
+        "why_left_bn": "অ্যাসেন্ট স্টেজ দেকার্ত হাইল্যান্ডস ত্যাগ করে; অবতরণ মঞ্চ থেকে যায়।",
+        "science_enabled": "ALSEP and extensive highland geological sampling.",
+        "science_enabled_bn": "ALSEP ও বিস্তৃত হাইল্যান্ড ভূতাত্ত্বিক নমুনা সংগ্রহ।",
+        "image": "assets/images/apollo16_lm.svg",
+        "image_credit": "NASA",
+        "source_url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1972-031C",
+        "dataset_id": "NSSDCA 1972-031C",
+        "coord_source": "NSSDCA LRO lunar_sites.html"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.7723,
+          20.1911
+        ]
+      },
+      "properties": {
+        "id": "apollo17-lm-descent",
+        "name": "Challenger descent stage",
+        "name_bn": "চ্যালেঞ্জার অবতরণ মঞ্চ",
+        "mission": "Apollo 17",
+        "body": "moon",
+        "lat": 20.1911,
+        "lon": 30.7723,
+        "left_behind": "1972-12-14",
+        "last_contact": "1972-12-14",
+        "why_left": "Final crewed lunar liftoff left the descent stage at Taurus-Littrow.",
+        "why_left_bn": "শেষ মানববাহী চাঁদ ত্যাগের সময় অবতরণ মঞ্চ টরাস-লিট্রোতে থেকে যায়।",
+        "science_enabled": "Heat-flow, seismic, and orange-soil geology at Taurus-Littrow.",
+        "science_enabled_bn": "টরাস-লিট্রোতে হিট-ফ্লো, সিসমিক ও কমলা মাটির ভূতত্ত্ব।",
+        "image": "assets/images/apollo17_lm.svg",
+        "image_credit": "NASA",
+        "source_url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1972-096C",
+        "dataset_id": "NSSDCA 1972-096C",
+        "coord_source": "NSSDCA LRO lunar_sites.html"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -23.3378,
+          -3.0157
+        ]
+      },
+      "properties": {
+        "id": "surveyor3",
+        "name": "Surveyor 3 lander",
+        "name_bn": "সার্ভেয়র ৩ ল্যান্ডার",
+        "mission": "Surveyor 3",
+        "body": "moon",
+        "lat": -3.0157,
+        "lon": -23.3378,
+        "left_behind": "1967-04-20",
+        "last_contact": "1967-05-04",
+        "why_left": "Soft-landed and shut down; Apollo 12 later visited and recovered parts.",
+        "why_left_bn": "নরম অবতরণের পর বন্ধ হয়ে যায়; পরে অ্যাপোলো ১২ অংশ উদ্ধার করে।",
+        "science_enabled": "Soil mechanics and television survey of Oceanus Procellarum.",
+        "science_enabled_bn": "ওশেনাস প্রসেলারামের মাটির যান্ত্রিকতা ও টেলিভিশন জরিপ।",
+        "image": "assets/images/surveyor3.svg",
+        "image_credit": "NASA",
+        "source_url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1967-035A",
+        "dataset_id": "NSSDCA 1967-035A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.45,
+          0.71
+        ]
+      },
+      "properties": {
+        "id": "apollo11-alsep-pse",
+        "name": "Apollo 11 Passive Seismic Experiment",
+        "name_bn": "অ্যাপোলো ১১ প্যাসিভ সিসমিক পরীক্ষা",
+        "mission": "Apollo 11",
+        "body": "moon",
+        "lat": 0.71,
+        "lon": 23.45,
+        "left_behind": "1969-07-21",
+        "last_contact": "1969-08-25",
+        "why_left": "Deployed beside Eagle and left operating until thermal limits ended contact.",
+        "why_left_bn": "ঈগলের পাশে স্থাপন করা হয়; তাপীয় সীমার কারণে যোগাযোগ শেষ হয়।",
+        "science_enabled": "First seismic measurements from another world.",
+        "science_enabled_bn": "অন্য জগত থেকে প্রথম সিসমিক পরিমাপ।",
+        "image": "assets/images/apollo11_pse.svg",
+        "image_credit": "NASA",
+        "source_url": "https://nssdc.gsfc.nasa.gov/nmc/experimentDisplay.action?id=1969-059C-01",
+        "dataset_id": "NSSDCA 1969-059C-01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.45,
+          18.4447
+        ]
+      },
+      "properties": {
+        "id": "perseverance",
+        "name": "Perseverance rover",
+        "name_bn": "পার্সিভারেন্স রোভার",
+        "mission": "Mars 2020",
+        "body": "mars",
+        "lat": 18.4447,
+        "lon": 77.45,
+        "left_behind": "2021-02-18",
+        "last_contact": "2026-09-01",
+        "why_left": "Still operating at Jezero; counted here as hardware that will remain when the mission ends.",
+        "why_left_bn": "জেজিরোতে এখনো সক্রিয়; মিশন শেষে হার্ডওয়্যার সেখানেই থাকবে।",
+        "science_enabled": "Sample caching for Mars Sample Return and Jezero geology.",
+        "science_enabled_bn": "মঙ্গল নমুনা ফেরতের জন্য ক্যাশিং ও জেজিরো ভূতত্ত্ব।",
+        "image": "assets/images/perseverance.svg",
+        "image_credit": "NASA / JPL-Caltech",
+        "source_url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2020-052A",
+        "dataset_id": "NSSDCA 2020-052A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.4417,
+          -4.5895
+        ]
+      },
+      "properties": {
+        "id": "curiosity",
+        "name": "Curiosity rover",
+        "name_bn": "কিউরিওসিটি রোভার",
+        "mission": "Mars Science Laboratory",
+        "body": "mars",
+        "lat": -4.5895,
+        "lon": 137.4417,
+        "left_behind": "2012-08-06",
+        "last_contact": "2026-09-01",
+        "why_left": "Still exploring Gale Crater; will remain on Mars after contact ends.",
+        "why_left_bn": "গেল ক্রেটার অন্বেষণ চলছে; যোগাযোগ শেষ হলেও মঙ্গলেই থাকবে।",
+        "science_enabled": "Habitability assessment and organic chemistry in Gale.",
+        "science_enabled_bn": "গেল-এ বাসযোগ্যতা মূল্যায়ন ও জৈব রসায়ন।",
+        "image": "assets/images/curiosity.svg",
+        "image_credit": "NASA / JPL-Caltech",
+        "source_url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2011-070A",
+        "dataset_id": "NSSDCA 2011-070A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.9462,
+          -2.2797
+        ]
+      },
+      "properties": {
+        "id": "opportunity",
+        "name": "Opportunity rover",
+        "name_bn": "অপরচুনিটি রোভার",
+        "mission": "Mars Exploration Rover-B",
+        "body": "mars",
+        "lat": -2.2797,
+        "lon": -1.9462,
+        "left_behind": "2018-06-10",
+        "last_contact": "2018-06-10",
+        "why_left": "A global dust storm ended communication; the rover remains in Endeavour crater.",
+        "why_left_bn": "বৈশ্বিক ধূলিঝড়ে যোগাযোগ শেষ; রোভার এনডেভার ক্রেটারেই আছে।",
+        "science_enabled": "Evidence of past liquid water across Meridiani Planum.",
+        "science_enabled_bn": "মেরিডিয়ানি প্ল্যানামে অতীত তরল পানির প্রমাণ।",
+        "image": "assets/images/opportunity.svg",
+        "image_credit": "NASA / JPL-Caltech",
+        "source_url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2003-032A",
+        "dataset_id": "NSSDCA 2003-032A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.4729,
+          -14.5684
+        ]
+      },
+      "properties": {
+        "id": "spirit",
+        "name": "Spirit rover",
+        "name_bn": "স্পিরিট রোভার",
+        "mission": "Mars Exploration Rover-A",
+        "body": "mars",
+        "lat": -14.5684,
+        "lon": 175.4729,
+        "left_behind": "2010-03-22",
+        "last_contact": "2010-03-22",
+        "why_left": "Stuck in soft soil; last contact during southern winter at Gusev.",
+        "why_left_bn": "নরম মাটিতে আটকে যায়; গুসেভে দক্ষিণ শীতে শেষ যোগাযোগ।",
+        "science_enabled": "Hydrothermal alteration and ancient wet environments at Gusev.",
+        "science_enabled_bn": "গুসেভে হাইড্রোথার্মাল পরিবর্তন ও প্রাচীন ভেজা পরিবেশ।",
+        "image": "assets/images/spirit.svg",
+        "image_credit": "NASA / JPL-Caltech",
+        "source_url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2003-027A",
+        "dataset_id": "NSSDCA 2003-027A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.6234,
+          4.5024
+        ]
+      },
+      "properties": {
+        "id": "insight",
+        "name": "InSight lander",
+        "name_bn": "ইনসাইট ল্যান্ডার",
+        "mission": "InSight",
+        "body": "mars",
+        "lat": 4.5024,
+        "lon": 135.6234,
+        "left_behind": "2022-12-15",
+        "last_contact": "2022-12-15",
+        "why_left": "Dust-covered solar panels ended power; lander remains on Elysium Planitia.",
+        "why_left_bn": "ধুলোঢাকা সোলার প্যানেলে বিদ্যুৎ শেষ; ল্যান্ডার এলিসিয়াম প্ল্যানিটিয়ায় আছে।",
+        "science_enabled": "Marsquakes, core size, and interior structure of Mars.",
+        "science_enabled_bn": "মঙ্গলকম্পন, কোরের আকার ও অভ্যন্তরীণ গঠন।",
+        "image": "assets/images/insight.svg",
+        "image_credit": "NASA / JPL-Caltech",
+        "source_url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2018-042A",
+        "dataset_id": "NSSDCA 2018-042A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.9,
+          -68.25
+        ]
+      },
+      "properties": {
+        "id": "phoenix",
+        "name": "Phoenix lander",
+        "name_bn": "ফিনিক্স ল্যান্ডার",
+        "mission": "Phoenix",
+        "body": "mars",
+        "lat": -68.25,
+        "lon": -109.9,
+        "left_behind": "2008-11-02",
+        "last_contact": "2008-11-02",
+        "why_left": "Polar winter ended the mission; the lander stayed in Vastitas Borealis.",
+        "why_left_bn": "মেরু শীতে মিশন শেষ; ল্যান্ডার ভাস্টিটাস বোরিয়ালিসে থেকে যায়।",
+        "science_enabled": "Confirmed water ice in the northern plains soil.",
+        "science_enabled_bn": "উত্তর সমভূমির মাটিতে জলীয় বরফ নিশ্চিত করে।",
+        "image": "assets/images/phoenix.svg",
+        "image_credit": "NASA / JPL-Caltech / UA",
+        "source_url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2007-034A",
+        "dataset_id": "NSSDCA 2007-034A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -47.95,
+          22.27
+        ]
+      },
+      "properties": {
+        "id": "viking1",
+        "name": "Viking 1 lander",
+        "name_bn": "ভাইকিং ১ ল্যান্ডার",
+        "mission": "Viking 1",
+        "body": "mars",
+        "lat": 22.27,
+        "lon": -47.95,
+        "left_behind": "1982-11-13",
+        "last_contact": "1982-11-13",
+        "why_left": "Battery failure ended contact; first successful Mars lander remains at Chryse.",
+        "why_left_bn": "ব্যাটারি ব্যর্থতায় যোগাযোগ শেষ; প্রথম সফল মঙ্গল ল্যান্ডার ক্রাইসেতে আছে।",
+        "science_enabled": "First successful soft landing and surface imaging on Mars.",
+        "science_enabled_bn": "মঙ্গলে প্রথম সফল নরম অবতরণ ও পৃষ্ঠচিত্র।",
+        "image": "assets/images/viking1.svg",
+        "image_credit": "NASA",
+        "source_url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1975-075C",
+        "dataset_id": "NSSDCA 1975-075C"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -33.217,
+          19.13
+        ]
+      },
+      "properties": {
+        "id": "pathfinder",
+        "name": "Mars Pathfinder / Sojourner",
+        "name_bn": "মার্স পাথফাইন্ডার / সোজর্নার",
+        "mission": "Mars Pathfinder",
+        "body": "mars",
+        "lat": 19.13,
+        "lon": -33.217,
+        "left_behind": "1997-09-27",
+        "last_contact": "1997-09-27",
+        "why_left": "Final contact ended the mission; lander and Sojourner rover remain in Ares Vallis.",
+        "why_left_bn": "শেষ যোগাযোগের পর মিশন শেষ; ল্যান্ডার ও সোজর্নার অ্যারেস ভ্যালিসে আছে।",
+        "science_enabled": "First successful Mars rover and airbag landing demonstration.",
+        "science_enabled_bn": "প্রথম সফল মঙ্গল রোভার ও এয়ারব্যাগ অবতরণ প্রদর্শন।",
+        "image": "assets/images/pathfinder.svg",
+        "image_credit": "NASA / JPL",
+        "source_url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1996-068A",
+        "dataset_id": "NSSDCA 1996-068A",
+        "coord_source": "NSSDCA / JPL public landing site"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.28,
+          47.64
+        ]
+      },
+      "properties": {
+        "id": "viking2",
+        "name": "Viking 2 lander",
+        "name_bn": "ভাইকিং ২ ল্যান্ডার",
+        "mission": "Viking 2",
+        "body": "mars",
+        "lat": 47.64,
+        "lon": 134.28,
+        "left_behind": "1980-04-11",
+        "last_contact": "1980-04-11",
+        "why_left": "Battery failure ended surface operations; lander remains in Utopia Planitia.",
+        "why_left_bn": "ব্যাটারি ব্যর্থতায় পৃষ্ঠ অপারেশন শেষ; ল্যান্ডার ইউটোপিয়া প্ল্যানিটিয়ায় আছে।",
+        "science_enabled": "Imaging, meteorology, and soil analysis at a northern plains site.",
+        "science_enabled_bn": "উত্তর সমভূমিতে চিত্র, আবহাওয়া ও মাটি বিশ্লেষণ।",
+        "image": "assets/images/viking2.svg",
+        "image_credit": "NASA",
+        "source_url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=1975-083C",
+        "dataset_id": "NSSDCA 1975-083C",
+        "coord_source": "NSSDCA / public landing site compilations"
+      }
+    }
+  ]
+}
